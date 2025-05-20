@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="ja">
+    <head>
+        <meta charset="UTF-8" />
+        <link rel="icon" type="image/png" href="./src/oven.png" />
+
+        <!-- reset.css destyle -->
+        <link
+            rel="stylesheet"
+            href="https://cdn.jsdelivr.net/npm/destyle.css@1.0.15/destyle.css" />
+
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+        <title>かんたん検索除けツール</title>
+
+      <script type="module" crossorigin src="./assets/index.js"></script>
+      <link rel="stylesheet" crossorigin href="./assets/index.css">
+    </head>
+
+    <body>
+        <header class="header">
+            <h1 class="title">かんたん検索除けツール</h1>
+        </header>
+
+        <main class="main">
+            <section class="section">
+                <textarea
+                    class="textarea"
+                    id="inputTextarea"
+                    rows="1"
+                    placeholder="名前"></textarea>
+                <label
+                    >レベル
+                    <input
+                        type="range"
+                        class="range"
+                        id="inputLevel"
+                        min="1"
+                        max="10"
+                        value="10"
+                        step="1"
+                /></label>
+                <button class="button submit" id="submit" type="submit">
+                    スタート
+                </button>
+                <button class="button copy" id="copy" type="button">
+                    コピー
+                </button>
+            </section>
+        </main>
+
+        <footer class="footer">
+            <p class="copyright">
+                <a href="https://x.com/atamayara9"
+                    ><small class="small">&copy; 2024-2025 K.eclair</small></a
+                >
+            </p>
+        </footer>
+    </body>
+</html>
